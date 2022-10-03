@@ -1,0 +1,13 @@
+Chapter 1 is a summary of coding basics with python.
+
+Using a repl is a good way to practice python.
+
+Integers / Strings
+cant combine strings and integers, but can multiple strings by integers. Cant multiple Integers by strings
+
+
+valueName = value (assignment)
+
+snake or camel case naming
+
+
