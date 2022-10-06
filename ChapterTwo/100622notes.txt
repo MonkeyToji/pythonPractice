@@ -1,0 +1,13 @@
+Python comes with a "standard library" like print,len, etc
+Modules have groups of similar functions like a Math module or the random module
+
+import <module name> is how to call in those Modules
+
+DONT NAME PROGRAMS SAME AS MODULES
+
+FROM <MODULE NAME> IMPORT *
+dont need module name to run, but looks less clear
+
+import sys
+sys.exit terminates PROGRAMS
+

@@ -1,0 +1,45 @@
+Boolean Values same as JS
+
+==
+!=
+<
+>
+<=
+>=
+
+and Table
+-------------
+t & t = t
+t & f = f
+f & t = f
+f & f = f
+
+or Table
+-------------
+t & t = t
+t & f = t
+f & t = t
+f & f = f
+
+(t & t) & (f || f)
+
+3 rules for blocks of code
+------------------------------
+Blocks begin when indentation increases
+Blocks can contain Blocks
+Blocks end when indentation decreases
+
+Flow control
+-----------------
+if, else, elif statements
+while loop
+break statements (exits loop early)
+continue statements (starts loops over)
+for loop and range() (for i in range())
+while loops can be written as an equivalent while loop (basically a for loop)
+range (start, stop, step) (0,10,2) 0,2,4,6,8
+
+
+Importing Modules
+---------------------
+continued in 100622
