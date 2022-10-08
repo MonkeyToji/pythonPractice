@@ -1,0 +1,57 @@
+Functions
+
+- define, call, pass, argument, and parameters
+define - creating a function.
+call - executing a function.
+passing - sending data to a function
+argument - a value being passed
+parameters - Variables with arguments assigned to them. (name in hellFunc2)
+
+return - ends a function and can give output back to user
+
+None value - Absence of a value
+A print statement doesnt need to return a value, just display text to screen. So under the hood its returning a None.
+
+Keyword arguments
+------------------
+An example of this is for print statement which has a end and sep keyword argument.
+print('cat','dog','snake')
+cat
+dog
+snake
+
+print('cat','dog','snake', end='', sep=',')
+cat,dog,snake
+
+
+Call Stack
+-----------
+Stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle.
+Queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle.
+
+Python creates a frame object to hold the order of execution
+
+
+Local and Global Scope
+------------------------
+Parameters and Variables assigned inside a called function are considered 'local scope'
+    These are called local variables
+Parameters and Variables assigned outside a called function are considered 'global scope'
+
+Scope is like a container for variables.
+
+using the Global statement you can tell python to not create a local variable for a function.
+    def spam():
+        global eggs
+        eggs = 'spam'
+    eggs = 'global'
+    spam()
+    print(eggs)
+
+    // prints spam
+
+Exception handling
+-------------------
+try / except blocks (see zeroDivide.py)
+When code in try clause causes and error it moves to except clause. Then continues
+
