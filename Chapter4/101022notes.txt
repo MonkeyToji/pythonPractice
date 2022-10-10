@@ -1,0 +1,87 @@
+Lists
+----------
+
+The list Data Type - a list is a value that contains multiple values in an ordered sequence.
+
+#slice in python is
+
+array = [0,1,2,3,4]
+
+array[1:3] => [1,2]
+
+#to change value
+array[0] = 'dog'
+array = ['dog',1,2,3,4]
+
+#to delete value
+del array[2]
+array = ['dog',1,3,4]
+
+#using loops with Lists
+
+for i in range(4):
+    0,1,2,3
+
+#in and not in
+
+# enumerate()
+
+A possible use with for loop, lets you get the index of a value.
+for index, value in enumerate(array)
+
+# random.choice() and random.shuffle()
+picks a value
+rearrange the list
+
+# Augmented assignment operators
++=
+-=
+*=
+/=
+%=
+
+
+Methods
+---------
+
+array.index(value) gives index of value (returns first found)
+array.append(value) similar to push in JS
+array.insert(1, value) adds value at index location shifts current index to the right
+array.remove(value) removes from list, error if not inside, multiple instances removes the first.
+array.sort(reverse=True) sorts low to high, A-Z,a-z or if reverse if added. Must be all same data type
+array.reverse() reverses list
+
+Sequence Data Type
+----------------------
+Python sequence data types include lists, strings, range objects returned by range(), tuples.
+
+Mutable and Immutable Data types
+---------------------------------
+Lists are Mutable (Can be modified)
+Strings are Immutable (You have to destroy and make a new one everytime)
+
+Tuple
+------
+If you need an ordered sequence of values that will never change use a tuple.
+tuple = ('dog', 1, Z)
+
+converting Methods
+----------------------
+tuples(['cat', 'dog', 5])
+('cat', 'dog', 5)
+
+list(('cat', 'dog', 5))
+['cat', 'dog', 5]
+
+list('hello')
+['h','e','l','l','o']
+
+Reference
+----------
+All values are techinically pointing to specific data on the computer, and have their own ID numbers.
+
+Copy() and deepcopy()
+------------------------
+copy.copy() will make a copy of the refence number
+copy.deepcopy() will make copy of a list in the list
+
